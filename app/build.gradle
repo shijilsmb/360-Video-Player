@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId "com.shijil.a360videoplayer"
-        minSdk 21
+        minSdk 23
         targetSdk 32
         versionCode 1
         versionName "1.0"
@@ -38,4 +38,5 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.4.2'
     implementation 'com.google.android.material:material:1.6.1'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'com.google.android.exoplayer:exoplayer:2.18.0'
 }
